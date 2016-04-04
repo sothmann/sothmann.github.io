@@ -132,7 +132,7 @@ Here are some examples.
 
 The following snippet shows the usage of type annotations and how they are eliminated in the JavaScript output:
 
-```typescript
+```javascript
 // TS
 function multiply(a: number, b: number): number {
   return a * b;
@@ -148,7 +148,7 @@ function multiply(a, b) {
 
 In this example, you see that interfaces are pure compile time constructs that are eliminated when being compiled to JavaScript:
 
-```typescript
+```javascript
 // TS
 interface Point {
   x: number;
@@ -172,7 +172,7 @@ Namespaces are compiled to the revealing module pattern.
 A potentially already existing namespace object is past to an [immediately-invoked function expression](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression),
 and it gets extended with the exported function.
 
-```typescript
+```javascript
 // TS
 namespace greetings {
   var greetingText = "hello world!"; 
@@ -198,7 +198,7 @@ Here you see how classes are compiled to ECMAScript 3 or 5.
 Again, an [immediately-invoked function expression](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression) is used for scoping,
 a constructor function is defined and the prototype chain is established.
 
-```typescript
+```javascript
 // TS
 class Greeter {
   greeting: string;
