@@ -42,7 +42,7 @@ Some of the most prominent ones are:
 - [Dart](https://www.dartlang.org/)  
   Dart is another approach by Google. It tries to replace JavaScript with a "better" language, that may either be compiled to JavaScript, or preferable run
   inside a VM in the browsers. The latter requires browser vendors to add support for Dart to the browsers, and as of today it seems that this will never happen.
-  Dart never really started to lift off, and - while being a well crafted language - I personnally doubt it ever will.
+  Dart never really started to lift off, and - while being a well crafted language - I personally doubt it ever will.
 - [Babel](https://babeljs.io/)  
   Babel is a transpiler that allows to use ECMAScript 6 features today, which gets compiled to correspoding ECMAScript constructs that work in older browsers.
   It's quite similar to TypeScript's ES6 to ES3/5 compilation, but Babel does not offer any static typing features.
