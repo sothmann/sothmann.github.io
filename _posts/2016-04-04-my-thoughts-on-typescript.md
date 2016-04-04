@@ -1,5 +1,5 @@
 ---
-title: My thoughts on TypeScript
+title: My Thoughts on TypeScript
 layout: post
 ---
 
