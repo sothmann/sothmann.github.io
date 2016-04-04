@@ -32,23 +32,23 @@ The code TypeScript generates is idiomatic (not cryptic) as you can see below.
 Today there are a lot of languages and tools that support either static typing, advanced language features, or both.
 Some of the most prominent ones are:
 
-- [GWT](http://www.gwtproject.org/)
+- [GWT](http://www.gwtproject.org/)  
   GWT has been build by Google several years ago. It is mature and powerful. You develop your application using Java as the programming language,
   so you benefit from the outstanding tooling for Java. GWT sees JavaScript as ByteCode, so it generates very cryptic, unreadable code, but the
   code is heavily optimized.
   I have used GWT for several years and was very satisfied with the development experience.
   The downside of GWT is that you are relativly far away from the JavaScript ecosystem - you will often use wrappers around JavaScript libraries, roll your own wrappers
   or you will try to avoid to use libraries of the rich JavaScript ecosystem and prefer pure GWT based solutions.
-- [Dart](https://www.dartlang.org/)
+- [Dart](https://www.dartlang.org/)  
   Dart is another approach by Google. It tries to replace JavaScript with a "better" language, that may either be compiled to JavaScript, or preferable run
   inside a VM in the browsers. The latter requires browser vendors to add support for Dart to the browsers, and as of today it seems that this will never happen.
   Dart never really started to lift off, and - while being a well crafted language - I personnally doubt it ever will.
-- [Babel](https://babeljs.io/)
+- [Babel](https://babeljs.io/)  
   Babel is a transpiler that allows to use ECMAScript 6 features today, which gets compiled to correspoding ECMAScript constructs that work in older browsers.
   It's quite similar to TypeScript's ES6 to ES3/5 compilation, but Babel does not offer any static typing features.
   So while allowing to use language features like classes and modules that many developers are longing for, for me personally this is not enough
   to improve the development experience. It alone will not make it easier to maintain large codebases.
-- [Flow](http://flowtype.org/)
+- [Flow](http://flowtype.org/)  
   Facebook's Flow is a superset of JavaScript and focuses on the static typing features only.
   The Flow team works together with the TypeScript team and they ensure that both projects share the same syntax for type annotations.
   In contrast to TypeScript today, Flow also provides runtime type checks (TypeScript offers compile time type checks only).
