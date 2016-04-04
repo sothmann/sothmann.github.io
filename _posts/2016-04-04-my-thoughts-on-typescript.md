@@ -135,12 +135,12 @@ The following snippet shows the usage of type annotations and how they are elimi
 ```javascript
 // TS
 function multiply(a: number, b: number): number {
-	return a * b;
+  return a * b;
 }
 
 // JS
 function multiply(a, b) {
-	return a * b;
+  return a * b;
 }
 ```
 
@@ -149,17 +149,17 @@ In this example, you see that interfaces are pure compile time constructs that a
 ```javascript
 // TS
 interface Point {
-	x: number;
-	y: number;
+  x: number;
+  y: number;
 }
 
 function drawLine(from: Point, to: Point) {
-	console.log("Drawing line...");
+  console.log("Drawing line...");
 }
 
 // JS
 function drawLine(from, to) {
-	console.log("Drawing line...");
+  console.log("Drawing line...");
 }
 ```
 
@@ -171,20 +171,20 @@ and it gets extended with the exported function.
 ```javascript
 // TS
 namespace greetings {
-	var greetingText = "hello world!"; 
-	export function greet() {
-		console.log(greetingText);
-	}
+  var greetingText = "hello world!"; 
+  export function greet() {
+    console.log(greetingText);
+  }
 }
 
 // JS
 var greetings;
 (function (greetings) {
-	var greetingText = "hello world!";
-	function greet() {
-		console.log(greetingText);
-	}
-	greetings.greet = greet;
+  var greetingText = "hello world!";
+  function greet() {
+    console.log(greetingText);
+  }
+  greetings.greet = greet;
 })(greetings || (greetings = {}));
 ```
 
@@ -195,26 +195,26 @@ a constructor function is defined and the prototype chain is established.
 ```javascript
 // TS
 class Greeter {
-	greeting: string;
-	constructor(message: string) {
-		this.greeting = message;
-	}
-	greet() {
-		return "Hello, " + this.greeting;
-	}
+  greeting: string;
+  constructor(message: string) {
+    this.greeting = message;
+  }
+  greet() {
+    return "Hello, " + this.greeting;
+  }
 }
 
 var greeter = new Greeter("world");
 
 // JS
 var Greeter = (function () {
-	function Greeter(message) {
-		this.greeting = message;
-	}
-	Greeter.prototype.greet = function () {
-		return "Hello, " + this.greeting;
-	};
-	return Greeter;
+  function Greeter(message) {
+    this.greeting = message;
+  }
+  Greeter.prototype.greet = function () {
+    return "Hello, " + this.greeting;
+  };
+  return Greeter;
 }());
 var greeter = new Greeter("world");
 ```
