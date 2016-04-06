@@ -258,7 +258,7 @@ var greeter = new Greeter("world");
 ### What about WebAssembly?
 
 WebAssembly could be the next big thing. I am looking forward to it and I would embrace it.
-It is the ByteCode for the Web, and all the major Browser vendors (Mozilla, Google, Mircosoft and Apple)
+It is the ByteCode for the Web, and all the major Browser vendors (Mozilla, Google, Microsoft and Apple)
 reached consensus. So this actually has a chance to be successful.
 But this is a technology of the future - it will take years until WebAssembly will be usable in all major browsers,
 and a completely new ecosystem has to be created.
