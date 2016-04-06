@@ -65,7 +65,9 @@ While GWT and Dart try to replace JavaScript with completely different languages
 adds the missing pieces.
 The combination of Babel and Flow comes really close to what TypeScript offers, and the syntax should be
 almost identical.
-Babel and Flow are more popular in the React camp, while TypeScript is more popular in the Angular camp.
+Babel and Flow are more popular in the React camp, while TypeScript is more popular in the Angular camp
+(in fact Angular 2.0 is built with TypeScript, and TypeScript seems to be the recommended language for
+Angular 2.0 based app development).
 
 TypeScript is very well supported by various IDEs.
 Java developers - like me - will enjoy to use TypeScript with either Eclipse or IntelliJ IDEA.
@@ -101,7 +103,7 @@ rebalanced the company's strategies. Microsoft has released e.g. dotNet, the C# 
 open source projects on GitHub, and more and more projects follow.
 [TypeScript is one of these open source projects found on GitHub](https://github.com/microsoft/typescript),
 using the liberal Apache 2 license.
-Microsoft accepts pull requires and manages the issues on GitHub.
+Microsoft accepts pull requests and manages the issues on GitHub.
 For me, this is as open as open source could be.
 Microsoft even joined the Eclipse foundation and embraces Linux (e.g. they announced SQL Server for Linux
 and the Linux subsystem for Windows 10).
