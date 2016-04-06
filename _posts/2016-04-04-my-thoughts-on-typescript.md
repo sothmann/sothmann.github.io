@@ -6,8 +6,7 @@ layout: post
 I use [TypeScript](http://www.typescriptlang.org/), the statically typed superset of JavaScript, for almost three years
 now on a daily basis in product development.
 My team and me are very happy with TypeScript and the development experience. We couldn't imagine going back to plain
-JavaScript development.
-
+JavaScript development.  
 From time to time, I'm faced with questions and concerns regarding TypeScript from people who have not used it yet.
 I'd like to address some of these questions and concerns in this blog post.
 I'm not going to give an introduction to the language and it's features, as there are many sources on the internet that
